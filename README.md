@@ -185,6 +185,7 @@ To load weights separately:
 - Modular and structured implementation
 - Optional GUI for inference
 
+you will find comments on code in nepali because i think no other than neplease are going to see this repo...
 
 ------------------------------------------------------------
 Author
