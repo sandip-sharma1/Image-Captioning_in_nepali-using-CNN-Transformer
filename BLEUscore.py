@@ -109,10 +109,10 @@ for i in valid_data:
         original_tokenization(d),
         original_tokenization(e)
     ]
-    bleu_1 = sentence_bleu(ref_tokens, pred_tokens, weights=(2, 0, 0, 0))
-    # bleu_2 = sentence_bleu(ref_tokens, pred_tokens, weights=(0.5, 0.5, 0, 0))
-    # bleu_3 = sentence_bleu(ref_tokens, pred_tokens, weights=(0.33, 0.33, 0.33, 0))
-    # bleu_4 = sentence_bleu(ref_tokens, pred_tokens, weights=(0.25, 0.25, 0.25, 0.25))
+    bleu_1 = sentence_bleu(ref_tokens, pred_tokens, weights=(1, 0, 0, 0)) #for bleu1
+    # bleu_2 = sentence_bleu(ref_tokens, pred_tokens, weights=(0.5, 0.5, 0, 0)) #for bleu2
+    # bleu_3 = sentence_bleu(ref_tokens, pred_tokens, weights=(0.33, 0.33, 0.33, 0)) #for bleu3
+    # bleu_4 = sentence_bleu(ref_tokens, pred_tokens, weights=(0.25, 0.25, 0.25, 0.25)) #for bleu4
     sum1=sum1+bleu_1
     counter=counter-1
     if counter==0:

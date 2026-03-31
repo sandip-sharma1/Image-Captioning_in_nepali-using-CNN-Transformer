@@ -14,7 +14,10 @@ vocab = vectorization.get_vocabulary()
 index_lookup = dict(zip(range(len(vocab)), vocab))
 max_decoded_sentence_length = SEQ_LENGTH - 1
 valid_images = list(valid_data.keys())
-
+"""
+the development of this full system was done in cpu only device so inference is only 
+tested on cpu and not on gpu. If you want to test it on gpu, you can do device="cuda"
+"""
 
 def generate_caption():
     # Select a random image from the validation dataset
