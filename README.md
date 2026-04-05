@@ -42,36 +42,27 @@ The model predicts one word at a time until an end token is generated.
 2. Repository Structure
 ------------------------------------------------------------
 
+```
 .
-├── dataset/               # Images and caption data
+├── BLEUscore.py              # BLEU evaluation implementation
+├── dataset/                  # Images and caption data
+│   ├── add_image_data
+│   └── translated_nepali_captions.txt
+├── improvedUI.py             # Enhanced graphical interface
+├── inference.py              # Caption generation script
+├── LICENSE
+├── loadingweight.py          # Load pretrained weights
+├── Loads_model.py            # Model loading utilities
+├── preprocessing.py          # Data preprocessing utilities
+├── README.md
+├── requirements.txt
+├── Saved_model/              # Saved trained model weights
+│   └── yourmodel
+├── training.py               # Model training script
+├── Transformer.py            # Transformer model implementation
+└── UI.py                     # Graphical interface for caption generation
 
-
-├── Saved_model/           # Saved trained model weights
-
-
-├── Transformer.py         # Transformer model implementation
-
-
-├── training.py            # Model training script
-
-
-├── inference.py           # Caption generation script
-
-
-├── preprocessing.py       # Data preprocessing utilities
-
-
-├── BLEUscore.py           # BLEU evaluation implementation
-
-
-├── Loads_model.py         # Model loading utilities
-
-
-├── loadingweight.py       # Load pretrained weights
-
-
-├── UI.py                  # Graphical interface for caption generation
-
+```
 
 
 
