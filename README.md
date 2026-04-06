@@ -178,8 +178,4 @@ To load weights separately:
 
 you will find comments on code in nepali because i think no other than neplease are going to see this repo...
 
-------------------------------------------------------------
-Author
-------------------------------------------------------------
 
-Sandip Sharma
